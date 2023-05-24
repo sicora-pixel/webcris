@@ -1,0 +1,99 @@
+/*-------------------*/
+/*  AYUDAS PARA CSS  */
+/*-------------------*/
+
+/* .miestilo   Para referirme a class */
+/* #id         Para referirme a un id concreto /*
+/* etiqueta    Para referirme a una etiqueta html /*
+
+/* Reset */
+body { margin: 0;}
+
+
+
+
+/*Fondos*/
+.bg-black  { background-color: black;}
+.bg-green  { background-color: green;}
+.bg-red    { background-color: red;}
+.bg-yellow { background-color: yellow;}
+.bg-orange { background-color: orange;}
+.bg-blue   { background-color: blue;}
+
+
+
+/*Color de la fuente */
+.txt-black  { color: black;}
+.txt-green  { color: green;}
+.txt-red    { color: red;}
+.txt-yellow { color: yellow;}
+.txt-orange { color: orange;}
+.txt-grey   { color: grey;}
+.txt-blue   { color: blue;}
+.txt-white  { color: white;}
+
+
+
+/* Margenes*/
+.mg-00x { margin:  0em;}
+.mg-10x { margin:  1em;}
+.mg-20x { margin:  2em;}
+.mg-30x { margin:  3em;}
+.mg-40x { margin:  4em;}
+.mg-50x { margin:  5em;}
+
+
+
+
+/* Padding*/
+.pd-00x { padding:  0em;}
+.pd-10x { padding:  1em;}
+.pd-20x { padding:  2em;}
+.pd-30x { padding:  3em;}
+.pd-40x { padding:  4em;}
+.pd-50x { padding:  5em;}
+
+
+
+/* Tamaños del texto */
+.txt-08x { font-size:  .8em;}
+.txt-10x { font-size:   1em;}
+.txt-12x { font-size: 1.2em;}
+.txt-15x { font-size: 1.5em;}
+.txt-20x { font-size:   2em;}
+.txt-30x { font-size:   3em;}
+.txt-40x { font-size:   4em;}
+.txt-50x { font-size:   5em;}
+
+
+
+/* Contenedores */
+.container960 { width:  960px;  margin: 0px auto;}
+.container1024{ width: 1024px;  margin: 0px auto;}
+.container1200{ width: 1200px;  margin: 0px auto;}
+.container1400{ width: 1400px;  margin: 0px auto;}
+
+
+
+/* Ayudas de texto */
+.txt-center{ text-align: center; }
+.txt-bold { font-weight: bold;}
+.txt-italic{ font-style: italic;}
+
+
+
+/* Fuente Roboto */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;900&display=swap');
+
+.fuente-descargada-100{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+}
+.fuente-descargada-400{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+.fuente-descargada-900{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+}
